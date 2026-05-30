@@ -96,5 +96,5 @@ plt.show()
 
 # predict future sales
 
-future_sales = model.predict([[250, 40, 50]])  # Example: TV=150, Radio=30, Newspaper=20
+future_sales = model.predict([[250, 40, 50]])  # Example : TV=150, Radio=30, Newspaper=20
 print("Predicted Future Sales:", future_sales[0])
