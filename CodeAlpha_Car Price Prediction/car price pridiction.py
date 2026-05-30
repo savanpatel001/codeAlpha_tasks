@@ -19,7 +19,9 @@ pd.set_option('display.width', None)
 
 
 # Load the Dataset
-car = pd.read_csv('C:\\Users\\savan\\OneDrive\\Desktop\\PROJECT\\p2\\car data.csv')
+
+file_path = 'p2\\car data.csv'  # Update with the correct path to your dataset
+car = pd.read_csv(file_path)
 print(car.head(100)) # Display first 100 rows
 
 
