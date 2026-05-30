@@ -79,7 +79,6 @@ print("R2:", r2)
 # compare actual vs predicted values
 
 comparison = pd.DataFrame({'Actual sales': y_test, 'Predicted sales': y_pred})
- 
 print(comparison.head(20))
 
 
