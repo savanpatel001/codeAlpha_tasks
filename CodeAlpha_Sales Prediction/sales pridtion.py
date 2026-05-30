@@ -12,7 +12,8 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load the dataset
 
-data = pd.read_csv(r'C:\Users\savan\OneDrive\Desktop\PROJECT\p3\Advertising.csv')
+file_path = 'p3\\Advertising.csv'  # Update with the correct path to your dataset
+data = pd.read_csv(file_path)
 print(data.head(100)) # Check the first 100 rows of the dataset
 
 
